@@ -1,0 +1,4 @@
+baseURL = 'https://pjtatlow.dev/'
+languageCode = 'en-us'
+title = "Just my thoughts"
+theme = "pjtatlow"
