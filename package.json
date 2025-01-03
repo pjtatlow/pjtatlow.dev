@@ -1,0 +1,8 @@
+{
+  "name": "pjtatlow.dev",
+  "version": "1.0.0",
+  "dependencies": {
+    "prettier": "^3.4.2",
+    "prettier-plugin-go-template": "^0.0.15"
+  }
+}
