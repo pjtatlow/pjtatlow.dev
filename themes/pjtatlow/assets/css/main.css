@@ -1,9 +1,28 @@
+html {
+  background-color: #1e1e2e;
+}
 body {
-  color: #222;
-  font-family: sans-serif;
+  background-color: #1e1e2e;
+  color: #cdd6f4;
+  font-family: "Space Mono", sans-serif;
   line-height: 1.5;
   margin: 1rem;
   max-width: 768px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #a6adc8;
+  font-family: "Inconsolata", sans-serif;
+}
+
+pre,
+code {
+  font-family: "Source Code Pro", sans-serif;
 }
 
 header {
@@ -17,6 +36,11 @@ footer {
 }
 
 a {
-  color: #00e;
+  color: #89b4fa;
   text-decoration: none;
+  transition: color 0.5s ease;
+}
+
+a:hover {
+  color: #94e2d5;
 }
