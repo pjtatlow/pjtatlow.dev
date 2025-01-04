@@ -1,0 +1,22 @@
+{{ define "main" }}
+  <div class="flex col justify-center">
+    {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
+    {{ $dateHuman := .Date | time.Format ":date_long" }}
+    <span>
+      <span>🗓️</span>
+      <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
+    </span>
+    <span>
+      <span>🕛</span>
+      <span>{{ printf "%d min" .ReadingTime }} read</span>
+    </span>
+    <div class="flex">
+      <span>🏷️</span>
+      {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+    </div>
+  </div>
+
+  <h1 class="title">{{ .Title }}</h1>
+
+  {{ .Content }}
+{{ end }}

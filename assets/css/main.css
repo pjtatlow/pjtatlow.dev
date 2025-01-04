@@ -35,7 +35,7 @@ body {
   line-height: 1.5;
   margin: 0 auto;
   padding: 0 1rem;
-  max-width: 768px;
+  max-width: 880px;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -61,33 +61,90 @@ code {
 }
 
 header {
-  border-bottom: 1px solid #222;
-  margin-bottom: 1rem;
+  display: flex;
+}
+
+header a {
+  padding: 1rem 0;
+  color: var(--subtext-0);
+  font-family: "Space Mono", sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+header a:hover {
+  color: var(--subtext-1);
+}
+
+.right {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
 }
 
 footer {
   border-top: 1px solid #222;
   margin-top: 1rem;
+  font-size: 0.6rem;
 }
 
 a {
-  color: var(--blue);
+  color: var(--green);
   text-decoration: none;
   transition: color 0.5s ease;
 }
 
 a:hover {
-  color: var(--pink);
+  color: var(--blue);
 }
 
-.title {
+.site-title {
   user-select: none;
+  margin: 0;
 }
 
-.title a {
+.site-title a {
   color: var(--subtext-0);
 }
 
-.title a:hover {
+.site-title a:hover {
   color: var(--subtext-1);
+}
+
+.flex {
+  display: flex;
+}
+
+.flex.col {
+  flex-direction: column;
+}
+
+.flex.align-center {
+  align-items: center;
+}
+
+.flex.justify-center {
+  justify-content: center;
+}
+
+.gap-md {
+  gap: 2rem;
+}
+
+.gap-sm {
+  gap: 1rem;
+}
+
+.gap-xs {
+  gap: 0.5rem;
+}
+
+.pill {
+  color: var(--blue);
+  padding: 0px 8px;
+}
+
+.title {
+  font-size: 44px;
+  margin: 8px 0px;
 }
