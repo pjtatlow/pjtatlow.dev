@@ -16,3 +16,9 @@ weight = 20
 name = 'Tags'
 pageRef = '/tags'
 weight = 30
+
+
+[markup]
+  [markup.highlight]
+    style = 'catppuccin-mocha'
+    tabWidth = 4

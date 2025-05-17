@@ -1,0 +1,17 @@
+<div class="flex align-center post-info gap-sm">
+  {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
+  {{ $dateHuman := .Date | time.Format ":date_long" }}
+  <span class="flex align-center gap-xs">
+    <span class="material-symbols-outlined"> calendar_today </span>
+    <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
+  </span>
+  <span class="flex align-center gap-xs">
+    <span class="material-symbols-outlined"> timer </span>
+
+    <span>{{ printf "%d min" .ReadingTime }} read</span>
+  </span>
+</div>
+<div class="flex align-center post-info">
+  <span class="material-symbols-outlined"> label </span>
+  {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+</div>

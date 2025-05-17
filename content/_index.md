@@ -1,9 +1,16 @@
 +++
 title = 'Home'
-date = 2023-01-01T08:00:00-07:00
-draft = false
 +++
 
-Laborum voluptate pariatur ex culpa magna nostrud est incididunt fugiat
-pariatur do dolor ipsum enim. Consequat tempor do dolor eu. Non id id anim anim
-excepteur excepteur pariatur nostrud qui irure ullamco.
+I'm PJ. I like to code.
+I write about that, and other things that I want to think more about.
+
+I'm a husband to the most incredible woman, a girl dad x3 (almost x4),
+a software engineer at [Redo](https://getredo.com),
+and an adjunct professor at [Brigham Young University](https://biology.byu.edu).
+
+Previous roles include:
+
+- Geek Squad (ARA, [awaiting the signal](https://en.wikipedia.org/wiki/Geek_Squad#:~:text=going%20sleeper%20is%20%E2%80%9C-,await%20the%20signal,-%E2%80%9D%2C%20as%20a%20reference))
+- [Qualtrics](https://qualtrics.com) (SWE I -> Senior SWE)
+- [Cockroach Labs](https://cockroachlabs.com) (Senior SWE)
